@@ -71,16 +71,16 @@ const Home = () => {
         <p className='text-[12px] text-[#cbcbcb]'><a href='/termsofservice' className='hover:text-mamun-green'>Terms and Conditions </a> applied</p>
         
       </section> */}
-       <section className='bg-gradient-to-b from-[#39AB27] to-[#174510] min-h-screen lg:mx-10 sm:mx-5 flex flex-col items-center justify-center gap-y-5 my-5 rounded-xl py-10'>
+       <section className='bg-[#1E1E1E] min-h-screen lg:mx-10 sm:mx-5 flex flex-col items-center justify-center gap-y-5 my-5 rounded-xl py-10'>
         
-        <div className='flex flex-row items-center justify-center border border-[white] p-2 gap-5 rounded-[12px] text-[16px] animate-fadeindown'>
+        <div className='flex flex-row items-center justify-center border border-[white] p-2 gap-2 rounded-[12px] text-[12px] md:text-[16px] animate-fadeindown'>
           <span>✨</span>
           <span className='font-semibold'>|</span>
           <span>Turning your requests into reality</span>
         </div>
 
         <div className='flex flex-col gap-5 items-center'>
-            <h2 className='lg:text-[50px] md:text-[35px]  sm:[text-45px] text-center font-bold leading-normal animate-zoomin'>Unlock New Opportunities with DreamClerk</h2>
+            <h2 className='lg:text-[50px] md:text-[35px]  text-[45px] text-center px-4 font-bold leading-normal animate-zoomin'>Unlock New Opportunities with DreamClerk</h2>
             <p className='lg:text-[20px] md:text-[15px] animate-fadeindown'>
             Part-Time Jobs Tailored for the Student Lifestyle
             </p>
@@ -99,7 +99,7 @@ const Home = () => {
               </Link>
             ))
           }
-           <p className='text-[20px] animate-fadeindown'>
+           <p className='text-[20px] animate-fadeindown text-center md:text-left'>
            Looking for someone to handle your tasks? Hire them here!
             </p>
         </div>
@@ -199,10 +199,10 @@ const Home = () => {
         ))}
         </Carousel>
       </section>
-      <section className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 text-[black] w-full px-10 place-items-center'>
-        <div className='flex flex-row gap-10 border rounded-xl py-10 px-8 h-[300px]  items-center '>
+      <section className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 px-3 gap-5 text-[black] w-full md:w-[75%] mx-auto items-center'>
+        <div className='flex flex-row gap-10 border rounded-xl py-2 px-8 h-[240px] items-center mx-auto'>
           <div className='flex flex-col gap-10 item'>
-            <h3 className='font-bold lg:text-4xl md:text-4xl sm:text-2xl'>
+            <h3 className='font-bold lg:text-3xl md:text-4xl sm:text-2xl'>
               Find exciting gigs that pay
             </h3>
             <button className='rounded-lg font-bold hover:text-[white] hover:bg-primary  border-2 outline-none p-2 w-52'>
@@ -215,9 +215,9 @@ const Home = () => {
           </div>
 
         </div>
-        <div className='flex flex-row gap-10 border rounded-xl py-10 px-8 h-[300px]  items-center '>
+        <div className='flex flex-row gap-10 border rounded-xl py-2 px-8 h-[240px]  items-center '>
           <div className='flex flex-col gap-10 item'>
-            <h3 className='font-bold lg:text-4xl md:text-4xl sm:text-2xl'>
+            <h3 className='font-bold lg:text-3xl md:text-4xl sm:text-2xl'>
             Find the right one for you task
             </h3>
             <button className='rounded-lg font-bold hover:text-[white] hover:bg-primary  border-2 outline-none p-2 w-52'>
@@ -233,7 +233,7 @@ const Home = () => {
         
 
       </section>
-      <section className='flex flex-col  items-center py-20 gap-10'>
+      {/* <section className='flex flex-col  items-center py-20 gap-10'>
         <div>
           <ul className='text-primary flex flex-row gap-16 text-xl'>
             <li className='p-5 border rounded-full border-[gray]'>
@@ -251,7 +251,7 @@ const Home = () => {
         <div className='text-[black] w-1/2 '>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam, iste optio tenetur illum facilis odio eum aperiam dolore ut! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa totam, quis qui a praesentium incidunt voluptate aliquid quam quibusdam quia.</p>
           </div>
-      </section>
+      </section> */}
     </main>
     
   )
