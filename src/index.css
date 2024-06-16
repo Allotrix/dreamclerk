@@ -6,7 +6,7 @@
 
 @layer components {
   body {
-    background-color: black;
+    /* background-color: black; */
     font-family: "Montserrat", sans-serif;
     cursor: none;
   }

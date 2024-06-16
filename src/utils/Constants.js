@@ -1,3 +1,70 @@
+import s1 from '../assets/img/Database.png'
+import s2 from '../assets/img/Programming.png'
+import s3 from '../assets/img/Quil.png'
+import s4 from '../assets/img/Audio.png'
+import s5 from '../assets/img/People.png'
+import s6 from '../assets/img/Website.png'
+export const skills = [
+  {
+      id: 1,
+      img: s1,
+      title: "Backend Dev"
+  },
+  {
+      id: 2,
+      img: s2,
+      title: "Programming"
+  },
+  {
+      id: 3,
+      img: s3,
+      title: "Content Writer"
+  },
+  {
+      id: 4,
+      img:s4,
+      title: "Audio Editing"
+  },
+  {
+      id: 5,
+      img: s5,
+      title: "Unskilled Work"
+  },
+  {
+      id: 6,
+      img: s6,
+      title: "Web Developer"
+  }
+];
+
+export const serviceDetails = [
+  {
+      id: 1,
+      title: "CHEAP ALTERNATIVE",
+      heading: "Cost-Effective Solutions",
+      description: "Find the perfect service for any price point with project-based pricing."
+  },
+  {
+      id: 2,
+      title: "QUICK DELIVERY",
+      heading: "Fast and Reliable",
+      description: "Hire talented freelancers in minutes and get lasting results."
+  },
+  {
+      id: 3,
+      title: "100% SECURED",
+      heading: "Protected Payments Guaranteed",
+      description: "Upfront quotes and approval-based payments ensure satisfaction."
+  },
+  {
+      id: 4,
+      title: "NO COMPROMISE",
+      heading: "Round-the-Clock Support",
+      description: "We're here to help, anytime, anywhere."
+  }
+];
+
+
 export const COMMITTEES = [
   {
     comAbb: "UNSC",

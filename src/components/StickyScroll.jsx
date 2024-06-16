@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function StickyScroll({OBJECT}) {
+function StickyScroll({ OBJECT }) {
   useEffect(() => {
     let ctx = gsap.context(() => {
       gsap.set(".photo:not(:first-child)", { opacity: 0, scale: 0.5 });
@@ -33,33 +33,31 @@ function StickyScroll({OBJECT}) {
   return (
     <div className="gallery flex w-[90%] mx-auto pt-[150px]">
       <div className="left w-[90%] ml-auto">
-       { OBJECT.map((chair, index)=>(
-            <article key={index} className='flex flex-col gap-3 md:w-[70%] mb-[500px]'>
-                <h4 className='text-4xl font-bold'>
-                    {chair.name}
-                </h4>
-                <h5 className='gradient-heading text-xl font-bold'>
-                    {chair.designation}
-                </h5>
-                <p className='text-xl text-justify'>
-                    {chair.description}
-                </p>
-            </article>
+        {OBJECT.map((chair, index) => (
+          <article
+            key={index}
+            className="flex flex-col gap-3 md:w-[70%] mb-[500px]"
+          >
+            <h5 className="text-xl font-bold text-primary">
+              {chair.title}
+            </h5>
+            <h4 className="text-4xl font-bold text-[black]">{chair.heading}</h4>
+
+            <p className="text-xl text-justify text-[black]">{chair.description}</p>
+          </article>
         ))}
       </div>
       <div className="rightblock w-1/2 h-screen flex flex-col items-center">
         <div className="relative w-[40vw] h-[40vw]">
-            {OBJECT.map((chair, index)=>(
-                <div key={index} className="photo absolute w-full h-full">
-                    
-                <img
-                src= {chair.img}
+          {OBJECT.map((chair, index) => (
+            <div key={index} className="photo absolute w-full h-full border border-[black]">
+              <img
+                src={chair.img}
                 alt={`img-${index}`}
                 className="w-full h-full object-cover object-center"
-                />
+              />
             </div>
-
-            ))}
+          ))}
         </div>
       </div>
     </div>

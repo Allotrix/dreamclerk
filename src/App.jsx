@@ -38,8 +38,9 @@ const MainApp = () => {
   return (
     <>
       {!checkout && <Cursor/>}
-      {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
-      {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />}
+      {/* {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
+      {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />} */}
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />

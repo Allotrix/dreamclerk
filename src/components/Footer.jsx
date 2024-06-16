@@ -5,7 +5,7 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <footer className='flex flex-col px-4 py-6 text-[white] font-mamun-font-secondary'>
+        <footer className='flex flex-col px-4 py-6 text-[black] font-mamun-font-secondary'>
             <div className='flex flex-col justify-between gap-6 md:flex-row md:mx-32 md:py-10'>
                 <article className='flex flex-col items-center gap-4'>
                     <h3 className='text-allotrix-std text-sm'>
@@ -115,8 +115,8 @@ const Footer = () => {
                 </aside>
             </div>
             <aside className='flex justify-between items-center border-t-2 border-solid border-t-mamun-blue pt-6 md:mx-32'>
-                <div className='w-[80px] gradient-heading text-xl'>
-                    Madras MUN
+                <div className='w-[140px] text-primary font-bold text-xl'>
+                    dreamclerk
                 </div>
                 <div className='bg-[#161617] text-[13px] font-light py-1 px-4 rounded-2xl text-[white] transition-all duration-300 ease-out border-[1px] border-solid hover:border-mamun-blue'>
                     <a href='/'>
