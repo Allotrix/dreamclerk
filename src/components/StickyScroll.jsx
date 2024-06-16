@@ -48,7 +48,7 @@ function StickyScroll({ OBJECT }) {
         ))}
       </div>
       <div className="rightblock w-1/2 h-screen flex flex-col items-center">
-        <div className="relative w-[40vw] h-[40vw]">
+        <div className="relative w-[30vw] h-[30vw]">
           {OBJECT.map((chair, index) => (
             <div key={index} className="photo absolute w-full h-full border border-[black]">
               <img
