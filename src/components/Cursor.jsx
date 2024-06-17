@@ -88,7 +88,7 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-        className='absolute border-2 bg-transparent border-mamun-green rounded-full pointer-events-none font-bold font-mamun-font-secondary text-[black] flex flex-col items-center justify-center h-full'
+        className='absolute border-2 bg-transparent border-[white] rounded-full pointer-events-none font-bold font-mamun-font-secondary text-[white] flex flex-col items-center justify-center h-full'
         style={{
           width: '110px',
           height: '110px',

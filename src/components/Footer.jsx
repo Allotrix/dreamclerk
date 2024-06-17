@@ -5,20 +5,20 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <footer className='flex flex-col px-4 py-6 text-[black] font-mamun-font-secondary'>
+        <footer className='mt-10 flex flex-col px-4 py-6 bg-dark-grey text-[white] font-mamun-font-secondary'>
             <div className='flex flex-col justify-between gap-6 md:flex-row md:mx-32 md:py-10'>
                 <article className='flex flex-col items-center gap-4'>
                     <h3 className='text-allotrix-std text-sm'>
                         Socials
                     </h3>
                     <div className='flex items-center gap-3 text-2xl'>
-                        <a href="https://twitter.com/allotrixapp" target='blank'>
+                        <a href="https://twitter.com/dreamclerk" target='blank'>
                             <FaXTwitter />
                         </a>
-                        <a href="https://www.instagram.com/allotrix" target='blank'>
+                        <a href="https://www.instagram.com/dreamclerk" target='blank'>
                             <FaInstagram />
                         </a>
-                        <a href="https://www.linkedin.com/company/allotrix-automation/mycompany/" target='blank'>
+                        <a href="https://www.linkedin.com/company/dreamclerk/" target='blank'>
                             <FaLinkedin />
                         </a>
                     </div>
@@ -56,23 +56,23 @@ const Footer = () => {
                         </h3>
                         <ul className='text-sm'>
                             <li>
-                                <a href="/gallery">
-                                    Gallery
+                                <a href="/">
+                                    comingSoon
                                 </a>
                             </li>
                             <li>
-                                <a href="/secretariat">
-                                Secretariat
+                                <a href="/">
+                                comingSoon
                                 </a>
                             </li>
                             <li>
-                                <a href="/committees">
-                                    committees
+                                <a href="/">
+                                comingSoon
                                 </a>
                             </li>
                             <li>
-                                <a href="/about">
-                                    About Us
+                                <a href="/">
+                                comingSoon
                                 </a>
                             </li>
                         </ul>
@@ -95,19 +95,19 @@ const Footer = () => {
                             <li>
                                 <a className='flex gap-1 items-center' href="mailto:allotrixapp@gmail.com?subject=Meeting%20Request">
                                     <IoMdMail />
-                                    info@oneworldfoundation.in
+                                    info@dreamclerk.com
                                 </a>
                             </li>
                             <li>
-                                <a className='flex gap-1 items-center' href="tel:+1(778)874-4788">
+                                <a className='flex gap-1 items-center' href="tel:+91 90923 83240">
                                     <IoMdCall />
-                                    +1 (778) 874-4788
+                                    +91 90923 83240
                                 </a>
                             </li>
                             <li>
-                                <a className='flex gap-1 items-center' href="tel:+919840572975">
+                                <a className='flex gap-1 items-center' href="tel:+91 90923 83240">
                                     <IoMdCall />
-                                    +91 9840572975
+                                    +91 90923 83240
                                 </a>
                             </li>
                         </ul>
@@ -120,7 +120,7 @@ const Footer = () => {
                 </div>
                 <div className='bg-[#161617] text-[13px] font-light py-1 px-4 rounded-2xl text-[white] transition-all duration-300 ease-out border-[1px] border-solid hover:border-mamun-blue'>
                     <a href='/'>
-                        Register
+                        Signup
                     </a>
                 </div>
             </aside>

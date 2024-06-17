@@ -97,9 +97,9 @@ const Navbar = ({openNav, setOpenNav}) => {
             <li>
               <a
                 href="#"
-                className="font-semibold text-gray-400 hover:text-blue-700 nav-font group"
+                className="font-regular text-gray-400 hover:text-blue-700 nav-font group"
               >
-                Documentaion
+                Documentation
                 <div className="h-[3px] w-0 bg-blue-500 group-hover:w-full transition-all duration-500"></div>
               </a>
             </li>

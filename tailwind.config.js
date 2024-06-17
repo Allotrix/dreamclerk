@@ -1590,10 +1590,9 @@ export default {
     },
 
     colors: {
-      "mamun-green": "#02E29E",
-      "mamun-light-blue": "#36B7FE",
-      "mamun-blue": "#1749DC",
-      "primary":"#80B342",
+  
+      "primary":"#38A626",
+      "dark-grey": "#1E1E1E"
     },
 
     fontFamily: {

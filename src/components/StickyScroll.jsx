@@ -7,11 +7,10 @@ gsap.registerPlugin(ScrollTrigger);
 function StickyScroll({ OBJECT }) {
   useEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.set(".photo:not(:first-child)", { opacity: 0, scale: 0.5 });
+      gsap.set(".photo:not(:first-child)", { opacity: 0});
 
       const animation = gsap.to(".photo:not(:first-child)", {
         opacity: 1,
-        scale: 1,
         duration: 1,
         stagger: 1,
       });
@@ -41,21 +40,22 @@ function StickyScroll({ OBJECT }) {
             <h5 className="text-xl font-bold text-primary">
               {chair.title}
             </h5>
-            <h4 className="text-4xl font-bold text-[black]">{chair.heading}</h4>
+            <h4 className="text-4xl font-bold text-[white]">{chair.heading}</h4>
 
-            <p className="text-xl text-justify text-[black]">{chair.description}</p>
+            <p className="text-xl text-justify text-[white]">{chair.description}</p>
           </article>
         ))}
       </div>
       <div className="rightblock w-1/2 h-screen flex flex-col items-center">
         <div className="relative w-[30vw] h-[30vw]">
-          {OBJECT.map((chair, index) => (
-            <div key={index} className="photo absolute w-full h-full border border-[black]">
-              <img
-                src={chair.img}
-                alt={`img-${index}`}
-                className="w-full h-full object-cover object-center"
-              />
+          {OBJECT.map((element, index) => (
+            <div key={index} className="photo flex items-center justify-center absolute w-full h-full ">
+
+              <video id='munVideo' className="w-[300px] h-[300px] rounded-full" src={element.video} autoPlay muted loop>
+              Your browser does not support the video.
+          </video>
+
+
             </div>
           ))}
         </div>
