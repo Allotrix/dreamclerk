@@ -51,7 +51,7 @@ function StickyScroll({ OBJECT }) {
           {OBJECT.map((element, index) => (
             <div key={index} className="photo flex items-center justify-center absolute w-full h-full ">
 
-              <video id='munVideo' className="w-[300px] h-[300px] rounded-full" src={element.video} autoPlay muted loop>
+              <video id='munVideo' className="w-[300px] h-[300px] rounded-full" src={element.video} autoPlay muted loop playsInline>
               Your browser does not support the video.
           </video>
 
