@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <main className='font-mamun-font-secondary text-[white] '>
 
-    <section className=' text-[#1E1E1E] h-screen lg:mx-10 sm:mx-5 flex flex-col items-center justify-center gap-y-5 my-2 rounded-xl bg-animated'>
+    <section className=' text-[#1E1E1E] md:h-screen lg:mx-10 sm:mx-5 flex flex-col items-center justify-center gap-y-5 md:mt-2 md:mb-2 mt-16 mb-6 rounded-xl bg-animated'>
         
         <div className='flex flex-row items-center justify-center border border-[black] py-1 px-2 gap-2 rounded-[12px] text-[12px] md:text-[16px] animate-fadeindown '>
           <span>✨</span>
@@ -37,8 +37,8 @@ const Home = () => {
         </div>
 
         <div className='flex flex-col gap-5 items-center w-[70%]'>
-            <h2 className='  md:text-6xl text-2xl text-center px-4 font-bold leading-normal animate-zoomin'>Unlock New Opportunities with <span className='text-[#38A626]'>DreamClerk</span></h2>
-            <p className='lg:text-[20px] md:text-[15px] animate-fadeindown'>
+            <h2 className='  md:text-6xl text-4xl text-center px-2 font-bold animate-zoomin'>Unlock New Opportunities with <span className='text-[#38A626]'>DreamClerk</span></h2>
+            <p className='lg:text-[20px] md:text-[15px] animate-fadeindown text-center'>
             Part-Time Jobs Tailored for the Student Lifestyle
             </p>
         </div>
@@ -62,7 +62,7 @@ const Home = () => {
 
 </section>
      
-      <section id='secretariat' className=' w-full bg-[#0b0c10] py-40'>
+      <section id='secretariat' className=' w-full bg-[#0b0c10] py-10 md:py-40'>
         <h2 className='md:text-5xl text-4xl sm:text-2xl px-4  text-white text-center text-primary font-bold'>
           Freelancing, <span className='text-[white] font-bold decoration-double decoration-[#ff0000]'>Simplified for Students</span>
         </h2>

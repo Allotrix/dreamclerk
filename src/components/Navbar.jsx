@@ -84,7 +84,7 @@ const Navbar = ({openNav, setOpenNav}) => {
         //         </div>
         //     </div>
         // </header>
-        <header className={`shadow-lg shadow-slate-100 h-20 px-10  ${isScrolled ? 'z-50 fixed w-full top-0 animate-slideindown  shadow-none bg-[white] border-b border-[gray]':''} flex flex-col justify-center`}>
+        <header className={`shadow-lg text-[black] shadow-slate-100 h-20 px-10  ${isScrolled ? 'z-50 fixed w-full top-0 animate-slideindown  shadow-none bg-[white] border-b border-[gray]':''} flex flex-col justify-center`}>
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 justify-between items-center ">
       <div className="h-15 w-32 items-center object-contain ">
           <Link to={'/'} className='font-bold text-primary text-xl'>
