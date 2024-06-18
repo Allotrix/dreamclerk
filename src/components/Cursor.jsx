@@ -55,9 +55,8 @@ const Cursor = () => {
   return (
     <>
       <div
-        className='cursor-dot'
+        className={`cursor-dot ${showSwipeContent ? 'hidden': 'md:block hidden'}`}
         style={{
-          display: `${showSwipeContent ? 'none' : 'block' }`,
           top: `${mousePosition.y}px`,
           left: `${mousePosition.x}px`,
           position: 'fixed',
@@ -71,10 +70,9 @@ const Cursor = () => {
         }}
       ></div>
       <div
-        className='cursor-outline'
+        className={`cursor-dot ${showSwipeContent ? 'hidden': 'md:block hidden'}`}
         ref={cursorOutlineRef}
         style={{
-          display: `${showSwipeContent ? 'none' : 'block' }`,
           position: 'fixed',
           transform: 'translate(-50%, -50%)',
           zIndex: 99,
@@ -88,7 +86,7 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-        className='absolute border-2 bg-transparent border-[white] rounded-full pointer-events-none font-bold font-mamun-font-secondary text-[white] flex flex-col items-center justify-center h-full'
+        className='absolute hidden border-2 bg-transparent border-[white] rounded-full pointer-events-none font-bold font-mamun-font-secondary text-[white] md:flex flex-col items-center justify-center h-full'
         style={{
           width: '110px',
           height: '110px',
