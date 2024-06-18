@@ -8,6 +8,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy"
 import RefundPolicy from './pages/Refund';
 import Terms from './pages/Terms';
 import Aboutus from "./pages/Aboutus"
+import Contact from './pages/Contact';
 const App = () => {
   return (
     <Router>
@@ -30,8 +31,7 @@ const MainApp = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<Aboutus />} />
-   
-
+        <Route path='/contact' element={<Contact />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/termsofservice' element={<Terms />} />

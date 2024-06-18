@@ -104,13 +104,13 @@ const Navbar = ({openNav, setOpenNav}) => {
               </a>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/contact"
                 className="font-semibold text-gray-400 hover:text-blue-700 nav-font group"
               >
                 Contact us
                 <div className="h-[3px] w-0 bg-blue-500 group-hover:w-full transition-all duration-500"></div>
-              </a>
+              </Link>
             </li>
           </ul>
           <div className=' flex-row  gap-7 items-center justify-end  xl:flex  hidden '>
