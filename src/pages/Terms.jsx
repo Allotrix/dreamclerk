@@ -2,22 +2,46 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <section className=" text-[white] flex flex-col items-center py-24 md:mt-0 px-6 gap-10 md:items-start text-left md:px-32 md:gap-4 md:pt-48">
+    <section className=" text-[black] flex flex-col items-center py-24 md:mt-0 px-6 gap-10 md:items-start text-left md:px-32 md:gap-4 md:pt-48">
       <div className="font-allotrix-font-secondary w-full text-center mt-16 md:mt-0">
         <h1 className="font-bold text-3xl md:text-4xl md:mb-10 px-2">
-          Legal Terms and Conditions
+          Terms of Service
         </h1>
       </div>
       <div className="md:w-[750px] mx-auto font-allotrix-font-secondary flex flex-col gap-6">
+        <p>
+          Welcome to Dreamclerk! These Terms of Service ("Terms") govern your
+          access to and use of the Dreamclerk website (the "Site"), the
+          Dreamclerk mobile app, and any other services provided by Dreamclerk
+          ("Services"). Please read these Terms carefully before using our
+          Services.
+        </p>
+        <p>
+          By accessing or using the Services, you agree to be bound by these
+          Terms and our Privacy Policy. If you do not agree to these Terms or
+          the Privacy Policy, you may not access or use the Services.
+        </p>
         <ol className="flex flex-col gap-4 list-decimal pl-4">
           <li className="ml-4">
-            General Conduct
+            Your Account
             <ul className="list-disc">
               <li className="ml-4">
-                1.1 All participants (hereinafter referred to as "Delegates")
-                are required to maintain a high standard of conduct and decorum
-                at all times during the Madras MUN Conference (hereinafter
-                referred to as "Conference").
+                Registration: You must register for an account to access certain
+                features of the Services. When you register, you agree to
+                provide accurate, current, and complete information about
+                yourself as prompted by the registration process.
+              </li>
+              <li>
+                Account Security: You are responsible for maintaining the
+                confidentiality of your account credentials and for all
+                activities that occur under your account. You agree to notify
+                Dreamclerk immediately of any unauthorized access to or use of
+                your account.
+              </li>
+              <li>
+                Minors: The Services are intended for users who are at least 18
+                years old. If you are under 18, you may only use the Services
+                with the involvement of a parent or guardian.
               </li>
               <li className="ml-4">
                 1.2 Delegates must exhibit respect towards fellow delegates,
@@ -26,52 +50,80 @@ const Terms = () => {
             </ul>
           </li>
           <li className="ml-4">
-            Hotel Accommodation
+            Use of the Services
             <ul className="list-disc">
               <li className="ml-4">
-                2.1 Delegates must comply with all rules and regulations set
-                forth by the hotel.
+                License: Subject to these Terms, Dreamclerk grants you a
+                limited, non-exclusive, non-transferable, and revocable license
+                to use the Services for your personal or internal business
+                purposes.
               </li>
               <li className="ml-4">
-                2.2 Delegates are responsible for maintaining cleanliness and
-                order in their assigned rooms. Any damage to hotel property will
-                result in financial liability for the responsible delegate(s).
+                Prohibited Conduct: You agree not to engage in any conduct that:
+              </li>
+              <li>Violates these Terms or any applicable law or regulation;</li>
+              <li>
+                Infringes or violates the rights of Dreamclerk or any third
+                party, including intellectual property rights;
+              </li>
+              <li>
+                Is harmful, fraudulent, deceptive, threatening, abusive,
+                harassing, defamatory, obscene, or otherwise objectionable;
+              </li>
+              <li>
+                Interferes with or disrupts the integrity or performance of the
+                Services or the data contained therein;
+              </li>
+              <li>
+                Attempts to gain unauthorized access to the Services or their
+                related systems or networks.
               </li>
             </ul>
           </li>
           <li className="ml-4">
-            Prohibition of Alcohol and Substance Use
+            Content
             <ul className="list-disc">
               <li className="ml-4">
-                3.1 The possession, consumption, or distribution of alcohol,
-                drugs, or any illegal substances is strictly prohibited.
+                User Content: You retain ownership of any content you submit,
+                post, or display on or through the Services ("User Content"). By
+                submitting User Content, you grant Dreamclerk a worldwide,
+                non-exclusive, royalty-free, sublicensable, and transferable
+                license to use, reproduce, distribute, prepare derivative works
+                of, display, and perform the User Content in connection with the
+                Services.
               </li>
               <li className="ml-4">
-                3.2 Violations of this policy will result in immediate expulsion
-                from the Conference, and notification of the delegate’s
-                parents/guardians and educational institution.
+                Dreamclerk Content: The Services may contain content owned or
+                licensed by Dreamclerk ("Dreamclerk Content"). Dreamclerk grants
+                you a limited, non-exclusive, non-transferable license to access
+                and use the Dreamclerk Content solely for your personal or
+                internal business purposes in connection with using the
+                Services.
               </li>
             </ul>
           </li>
           <li className="ml-4">
-            Curfew
+            Payments
             <ul className="list-disc">
               <li className="ml-4">
-                4.1 Delegates must be in their assigned rooms by 10:00 PM each
-                night.
+                Fees: Certain features of the Services may require payment of
+                fees. You agree to pay all fees and applicable taxes incurred in
+                connection with your use of the Services.
               </li>
               <li className="ml-4">
-                4.2 Any form of disturbance, including loud noises, is
-                prohibited after the curfew time.
+                Billing: By providing Dreamclerk with a payment method, you
+                authorize Dreamclerk to charge the applicable fees to your
+                payment method.
               </li>
             </ul>
           </li>
           <li className="ml-4">
-             Attendance and Participation
+            Intellectual Property
             <ul className="list-disc">
               <li className="ml-4">
-                5.1 Delegates are required to attend all scheduled sessions and
-                events.
+                Ownership: Dreamclerk and its licensors retain all right, title,
+                and interest in and to the Services and Dreamclerk Content,
+                including all intellectual property rights.
               </li>
               <li className="ml-4">
                 5.2 Punctuality is mandatory; late arrivals may be denied entry
@@ -80,124 +132,97 @@ const Terms = () => {
             </ul>
           </li>
           <li className="ml-4">
-            Identification
+            Privacy{" "}
             <ul className="list-disc">
               <li className="ml-4">
-                6.1 Delegates must wear their official Conference ID Cards at
-                all times within the hotel and conference venues.
-              </li>
-              <li className="ml-4">
-                6.2 Lost ID cards must be reported immediately and may be
-                subject to a replacement fee.
+                Privacy Policy: Our Privacy Policy explains how we collect, use,
+                and disclose information about you. By using the Services, you
+                consent to our collection, use, and disclosure of your
+                information as described in the Privacy Policy.
               </li>
             </ul>
           </li>
           <li className="ml-4">
-            User Conduct:
+            Modifications to the Services
             <ul className="list-disc">
               <li className="ml-4">
-                You agree to not engage in any activity that interferes with or
-                disrupts the Services or the servers and networks connected to
-                the Services.
+                Changes: Dreamclerk reserves the right to modify or discontinue
+                the Services at any time without notice. We may also revise
+                these Terms from time to time. The most current version of the
+                Terms will govern your use of the Services and will be available
+                on the Site.
               </li>
             </ul>
           </li>
-         
-          <li className="ml-4">
-          Emergency Procedures
-            <ul className="list-disc">
-              <li className="ml-4">
-              7.1 Delegates must familiarize themselves with the hotel's
-                emergency exits and procedures.
-              </li>
-              <li className="ml-4">
-              7.2 In the event of an emergency, Delegates must follow the
-                instructions of hotel staff and Conference organizers.
-              </li>
-            </ul>
-          </li>
-          <li className="ml-4">
-             Room Assignments
-            <ul className="list-disc">
-              <li className="ml-4">
-                8.1 Room changes are not permitted without prior approval from
-                Conference organizers.
-              </li>
-              <li className="ml-4">
-                8.2 Mixed-gender rooming is prohibited unless explicitly
-                authorized by the organizers and with parental consent.
-              </li>
-            </ul>
-          </li>
-          <li className="ml-4">
-            Liability
-            <ul className="list-disc">
-              <li className="ml-4">
-                9.1 The Conference organizers are not liable for any lost or
-                stolen personal belongings.
-              </li>
-              <li className="ml-4">
-                9.2 Delegates are advised to keep their valuables secure at all
-                times.
-              </li>
-            </ul>
-          </li>
-          <li className="ml-4">
-             Responsibility for Damages
-            <ul className="list-disc">
-              <li className="ml-4">
-                10.1 Delegates are fully responsible for any damage or breakage
-                of items within the hotel premises.
-              </li>
-              <li className="ml-4">
-                10.2 Neither the hotel nor the Madras MUN organizers will be
-                held liable for any such damages.
-              </li>
-            </ul>
-          </li>
-          <li className="ml-4">
-             Parental Notification
-            <ul className="list-disc">
-              <li className="ml-4">
-                11.1 As all Delegates are minors, any issues or violations of
-                these terms and conditions will result in immediate notification
-                of the delegate’s parents/guardians.
-              </li>
-              <li className="ml-4">
-                11.2 Parents/guardians will be contacted in cases of misconduct,
-                rule violations, or emergencies.
-              </li>
-            </ul>
-          </li>
-          <li className="ml-4">
-             Disciplinary Actions
-            <ul className="list-disc">
-              <li className="ml-4">
-                12.1 Any violation of these terms and conditions will be
-                reviewed by the Conference disciplinary committee.
-              </li>
-              <li className="ml-4">
-                12.2 Consequences of violations may include, but are not limited
-                to, warnings, expulsion from the Conference, and notification of
-                the delegate’s educational institution and parents/guardians.
-              </li>
-            </ul>
-            </li>
-            <li className="ml-4">
 
-             Agreement
+          <li className="ml-4">
+            Termination
             <ul className="list-disc">
               <li className="ml-4">
-                13.1 By attending the Madras MUN Conference, Delegates
-                acknowledge and agree to comply with these terms and conditions.
+                Termination by You: You may terminate your account and these
+                Terms at any time by contacting us or deleting your account
+                through the Services.
               </li>
               <li className="ml-4">
-                13.2 Non-compliance with these terms and conditions may result
-                in disciplinary action as outlined herein.
+                Termination by Dreamclerk: Dreamclerk may suspend or terminate
+                your access to the Services if we believe you have violated
+                these Terms or for any other reason, with or without notice to
+                you.
+              </li>
+            </ul>
+          </li>
+          <li className="ml-4">
+            Disclaimers
+            <ul className="list-disc">
+              <li className="ml-4">
+                AS-IS Basis: THE SERVICES ARE PROVIDED "AS IS" AND "AS
+                AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR
+                IMPLIED. DREAMCLERK DISCLAIMS ALL WARRANTIES, INCLUDING, BUT NOT
+                LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+                PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+              </li>
+            </ul>
+          </li>
+          <li className="ml-4">
+            Limitation of Liability
+            <ul className="list-disc">
+              <li className="ml-4">
+                Exclusion of Damages: IN NO EVENT WILL DREAMCLERK OR ITS
+                LICENSORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT,
+                INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING
+                OUT OF OR RELATING TO YOUR USE OF THE SERVICES, WHETHER BASED ON
+                WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER
+                LEGAL THEORY, EVEN IF DREAMCLERK HAS BEEN ADVISED OF THE
+                POSSIBILITY OF SUCH DAMAGES.
+              </li>
+            </ul>
+          </li>
+          <li className="ml-4">
+            Governing Law
+            <ul className="list-disc">
+              <li className="ml-4">
+                Jurisdiction: These Terms are governed by and construed in
+                accordance with the laws of India, without regard to its
+                conflict of law principles.
+              </li>
+            </ul>
+          </li>
+          <li className="ml-4">
+            Contact Us
+            <ul className="list-disc">
+              <li className="ml-4">
+                Questions: If you have any questions about these Terms or the
+                Services, please contact us at info@dreamclerk.com.
               </li>
             </ul>
           </li>
         </ol>
+        <p>
+          These Terms constitute the entire agreement between you and Dreamclerk
+          regarding your use of the Services. If any provision of these Terms is
+          found to be invalid or unenforceable, the remaining provisions will
+          continue in full force and effect.
+        </p>
       </div>
     </section>
   );
