@@ -101,13 +101,21 @@ const Footer = () => {
                             <li>
                                 <a className='flex gap-1 items-center' href="tel:+91 90923 83240">
                                     <IoMdCall />
-                                    +91 90923 83240
+                                    +91 9092383240
+                                </a>
+
+
+                            </li>
+                            <li>
+                                <a className='flex gap-1 items-center' href="tel:+91 90923 83240">
+                                    <IoMdCall />
+                                    +91 9025123500
                                 </a>
                             </li>
                             <li>
                                 <a className='flex gap-1 items-center' href="tel:+91 90923 83240">
                                     <IoMdCall />
-                                    +91 90923 83240
+                                    +91 6379998479
                                 </a>
                             </li>
                         </ul>
