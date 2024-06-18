@@ -40,14 +40,14 @@ export const serviceDetails = [
       title: "CHEAP ALTERNATIVE",
       heading: "Cost-Effective Solutions",
       description: "Find the perfect service for any price point with project-based pricing.",
-      video: "/v4.mp4"
+      video: "/v4.gif"
   },
   {
       id: 2,
       title: "QUICK DELIVERY",
       heading: "Fast and Reliable",
       description: "Hire talented freelancers in minutes and get lasting results.",
-      video: "/v2.mp4"
+      video: "/v2.gif"
 
   },
   {
@@ -55,7 +55,7 @@ export const serviceDetails = [
       title: "100% SECURED",
       heading: "Protected Payments Guaranteed",
       description: "Upfront quotes and approval-based payments ensure satisfaction.",
-      video: "/v3.mp4"
+      video: "/v3.gif"
 
   },
   {
@@ -63,7 +63,7 @@ export const serviceDetails = [
       title: "NO COMPROMISE",
       heading: "Round-the-Clock Support",
       description: "We're here to help, anytime, anywhere.",
-      video: "/v1.mp4"
+      video: "/v1.gif"
 
   }
 ];

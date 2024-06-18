@@ -22,9 +22,7 @@ const GradientBox = ({ tag, title,title2, photo, buttonName, link }) => {
 
                 <div className=" flex gap-4 items-center md:w-4/12 justify-center">
 
-                <video id='munVideo' className="w-[200px] h-[200px] rounded-full" src={photo} autoPlay muted loop>
-                Your browser does not support the video.
-          </video>
+                <img id='munVideo' className="w-[200px] h-[200px] rounded-full" src={photo} />
                   
               
                 </div>

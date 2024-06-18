@@ -73,7 +73,7 @@ const Home = () => {
           {
             serviceDetails.map((service,index) => (
               <div key={index} className='flex flex-col gap-8 items-center px-4'>
-                <video className='w-[200px]' src={service.video} controls={false} autoPlay muted loop playsInline></video>
+                <img className='w-[200px]' src={service.video} />
                 <h3 className='text-primary font-bold text-lg self-start'>
                   {service.heading}
                 </h3>
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
       </section>
       <section className='mt-5 md:max-w-[70%] mx-auto flex flex-col gap-2'>
-        <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"No more mindless negotiations"} title2={"Discover Jobs that Fit Your Skills"} photo={"/v1.mp4"} link={"/"} />
+        <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"No more mindless negotiations"} title2={"Discover Jobs that Fit Your Skills"} photo={"/v1.gif"} link={"/"} />
       </section>
      
 
