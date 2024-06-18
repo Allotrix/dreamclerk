@@ -66,11 +66,25 @@ const Home = () => {
         <h2 className='md:text-5xl text-4xl sm:text-2xl px-4  text-white text-center text-primary font-bold'>
           Freelancing, <span className='text-[white] font-bold decoration-double decoration-[#ff0000]'>Simplified for Students</span>
         </h2>
-        <StickyScroll OBJECT={serviceDetails}/>
-
-
-
-
+        <div className='md:block hidden'>
+          <StickyScroll OBJECT={serviceDetails}/>
+        </div>
+        {
+          serviceDetails.map((service,index) => (
+            <div key={index} className='flex flex-col gap-8 items-center px-4'>
+              <video className='w-[200px]' src={service.video} controls={false} infiniteLoop autoPlay></video>
+              <h3 className='text-primary font-bold text-lg self-start'>
+                {service.heading}
+              </h3>
+              <h2 className='text-2xl self-start font-bold'>
+                {service.title}
+              </h2>
+              <p className='text-[gray] text-md self-start'>
+                {service.description}
+              </p>
+            </div>
+          ))
+        }
       </section>
       <section className='mt-5 md:max-w-[70%] mx-auto flex flex-col gap-2'>
         <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"No more mindless negotiations"} title2={"Discover Jobs that Fit Your Skills"} photo={"/v1.mp4"} link={"/"} />
@@ -99,9 +113,9 @@ const Home = () => {
         </Carousel>
       </section>
       <section className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 px-3 gap-5 text-[black] w-full md:w-[75%] mx-auto items-center'>
-        <div className='flex flex-row gap-10 border rounded-xl py-2 px-8 h-[240px] items-center mx-auto'>
-          <div className='flex flex-col gap-10 item'>
-            <h3 className='font-bold lg:text-3xl md:text-4xl sm:text-2xl'>
+        <div className='flex flex-col md:flex-row w-full gap-3 md:gap-10 border rounded-xl py-2 px-8 h-[240px] md:items-center mx-auto'>
+          <div className='flex flex-col md:gap-10 gap-3'>
+            <h3 className='font-bold lg:text-3xl md:text-4xl text-3xl'>
               Find exciting gigs that pay
             </h3>
             <button className='rounded-lg font-bold hover:text-[white] hover:bg-primary  border-2 outline-none p-2 w-52'>
@@ -114,9 +128,9 @@ const Home = () => {
           </div>
 
         </div>
-        <div className='flex flex-row gap-10 border rounded-xl py-2 px-8 h-[240px]  items-center '>
-          <div className='flex flex-col gap-10 item'>
-            <h3 className='font-bold lg:text-3xl md:text-4xl sm:text-2xl'>
+        <div className='flex flex-col md:flex-row w-full md:gap-10 gap-3 border rounded-xl py-2 px-8 h-[240px]  md:items-center '>
+          <div className='flex flex-col md:gap-10 gap-3'>
+            <h3 className='font-bold lg:text-3xl md:text-4xl text-3xl'>
             Find the right one for you task
             </h3>
             <button className='rounded-lg font-bold hover:text-[white] hover:bg-primary  border-2 outline-none p-2 w-52'>
