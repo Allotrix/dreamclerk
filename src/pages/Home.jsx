@@ -69,22 +69,24 @@ const Home = () => {
         <div className='md:block hidden'>
           <StickyScroll OBJECT={serviceDetails}/>
         </div>
-        {
-          serviceDetails.map((service,index) => (
-            <div key={index} className='flex flex-col gap-8 items-center px-4'>
-              <video className='w-[200px]' src={service.video} controls={false} infiniteLoop autoPlay></video>
-              <h3 className='text-primary font-bold text-lg self-start'>
-                {service.heading}
-              </h3>
-              <h2 className='text-2xl self-start font-bold'>
-                {service.title}
-              </h2>
-              <p className='text-[gray] text-md self-start'>
-                {service.description}
-              </p>
-            </div>
-          ))
-        }
+        <div className='md:hidden'>
+          {
+            serviceDetails.map((service,index) => (
+              <div key={index} className='flex flex-col gap-8 items-center px-4'>
+                <video className='w-[200px]' src={service.video} controls={false} autoPlay muted loop playsInline></video>
+                <h3 className='text-primary font-bold text-lg self-start'>
+                  {service.heading}
+                </h3>
+                <h2 className='text-2xl self-start font-bold'>
+                  {service.title}
+                </h2>
+                <p className='text-[gray] text-md self-start'>
+                  {service.description}
+                </p>
+              </div>
+            ))
+          }
+        </div>
       </section>
       <section className='mt-5 md:max-w-[70%] mx-auto flex flex-col gap-2'>
         <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"No more mindless negotiations"} title2={"Discover Jobs that Fit Your Skills"} photo={"/v1.mp4"} link={"/"} />
