@@ -39,7 +39,8 @@ const Home = () => {
         <div className='flex flex-col gap-5 items-center w-[70%]'>
             <h2 className='  md:text-6xl text-4xl text-center px-2 font-bold animate-zoomin'>Unlock New Opportunities with <span className='text-[#38A626]'>DreamClerk</span></h2>
             <p className='lg:text-[20px] md:text-[15px] animate-fadeindown text-center'>
-            Part-Time Jobs Tailored for the Student Lifestyle
+            FREELANCING X STUDENT WORK FORCE = QUALITY WORK
+
             </p>
         </div>
         <div className='flex flex-wrap gap-5 px-4  justify-center w-full'>
@@ -55,7 +56,7 @@ const Home = () => {
             ))
           }
            <p className='text-[20px] animate-fadeindown text-center md:text-left'>
-           Looking for someone to handle your tasks? <a className='text-[#38A626]'>Hire them here!</a>
+           Want to earn? Do it while you learn.  <a className='text-[#38A626]'>register now!!!</a>
             </p>
         </div>
     
@@ -89,15 +90,14 @@ const Home = () => {
         </div>
       </section>
       <section className='mt-5 md:max-w-[70%] mx-auto flex flex-col gap-2'>
-        <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"No more mindless negotiations"} title2={"Discover Jobs that Fit Your Skills"} photo={"/v1.gif"} link={"/"} />
+        <GradientBox tag={"DreamClerk"} href={"/register"} buttonName={"Get Started"} title={"Quality service, sensible price"} title2={"Discover Jobs that fit your skills"} photo={"/v1.gif"} link={"/"} />
       </section>
      
 
       
       <section className='w-full px-4 md:px-32 my-14 py-10 bg-[black] flex flex-col gap-y-10 justidy-center'>
         <p className='text-center text-2xl  w-[70%] self-center'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus egestas dolor, in efficitur justo tincidunt nec. Etiam fermentum justo
-        </p>
+        Check out our Customer Experiences and Feedback to understand why we’re trusted by so many        </p>
       <Carousel autoPlay infiniteLoop interval={3000} showThumbs={false} showStatus={false}>
         {groupedUsers.map((group, index) => (
           <div key={index} className="flex flex-col md:flex-row gap-4 justify-center h-auto">
